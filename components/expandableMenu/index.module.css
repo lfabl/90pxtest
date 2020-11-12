@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    width: 100%;
+    transition: all 0.5s;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 40px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menuIcon {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.menuItem {
+    margin-right: 28px;
+    font-weight: 600;
+    font-size: 16px;
+    user-select: none;
+}
+
+.menuItem:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.menuItem:active {
+    transform: scale(0.9);
+}
+
+@media (max-width: 750px) {
+    .container {
+        padding: 0px 20px;
+    }
+
+    .menuItem {
+        visibility: hidden;
+        opacity: 0;
+    }
+
+    .menuIcon {
+        visibility: initial;
+        opacity: 1;
+    }
+
+    .menuIcon:hover {
+        cursor: pointer;
+        opacity: 0.5;
+    }
+
+    .menuIcon:active {
+        transform: scale(0.9);
+    }
+}

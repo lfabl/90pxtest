@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var HOST = \"http://www.omdbapi.com/\";\nexport var API_KEY = \"b9b6f493\";\nexport var navigation = [{\n  title: \"Home\",\n  url: \"/\"\n}, {\n  title: \"Favorite\",\n  url: \"/favorites\"\n}];","map":null,"metadata":{},"sourceType":"module"}

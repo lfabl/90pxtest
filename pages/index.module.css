@@ -1,0 +1,20 @@
+.container {
+    transition: all 0.5s;
+}
+
+.safeSpace {
+    width: 100%;
+    padding-top: 60px;
+}
+
+.footerSpace {
+    width: 100%;
+    padding-top: 120px;
+}
+
+@media (max-width: 800px) {
+    .da {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
